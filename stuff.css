@@ -26,6 +26,10 @@ body.page-forum .forumcategoryblock .forumcategoryblock {margin: 5px0rem5px0rem;
     padding-right: 0;
 }
 
+/*highlight your own posts*/
+.postblock.postblock-own .postcontent{
+    background: linear-gradient(to right, rgb(255, 255, 236), #fff512px);
+}
 
 spoiler,
 spoiler a:not(:hover) {
@@ -42,4 +46,5 @@ spoiler:focus {
     transition: none;
     color: #FFFFFF!important;
 }
+
 
