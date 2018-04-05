@@ -47,4 +47,9 @@ spoiler:focus {
     color: #FFFFFF!important;
 }
 
-
+body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threadsubforum {
+    position: absolute;
+    height: 16px;
+    right: 0;
+    bottom: 0;
+}
