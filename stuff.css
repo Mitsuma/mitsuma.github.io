@@ -1,3 +1,10 @@
+body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threadsubforum {
+    position: absolute;
+    height: 16px;
+    right: 0;
+    bottom: 0;
+}
+
 .drawer-container>.drawer {
     min-width: 30px;
     flex-basis: 30px;
@@ -47,9 +54,3 @@ spoiler:focus {
     color: #FFFFFF!important;
 }
 
-body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threadsubforum {
-    position: absolute;
-    height: 16px;
-    right: 0;
-    bottom: 0;
-}
