@@ -6,21 +6,29 @@ body.page-forum .threadlistsection .threadblock .threadmain .threadtitle a.threa
     bottom: 0;
 }
 
-.drawer-container>.drawer {
-    min-width: 30px;
-    flex-basis: 30px;
-    transition: 0.5s;
-    overflow: hidden;
-    opacity: 0.25;
+@media screen and (min-width: 1280px) {
+    #drawerleft {
+        min-width: 30px;
+        flex-basis: 30px;
+        transition: 0.5s;
+        overflow: hidden;
+        opacity: 0.25;
+    }
+    #drawerleft:hover {
+        flex-basis: 250px;
+        opacity: 1;
+    }
+    #drawerleft>.drawer-section {
+        min-width: 250px;
+    }
+    .page-forum.useroptions .drawer-container>.drawer {
+        flex-basis: auto;
+        opacity: 1;
+    }
 }
 
-.drawer-container>.drawer:hover {
-    flex-basis: 250px;
-    opacity: 1;
-}
-
-.drawer-container>.drawer>.drawer-section {
-    min-width: 250px;
+.postblock-own .postmain .postrender .postinner > .postcontent {
+	background: linear-gradient(to left, #eeffbb 0px, #fff 250px, #fff 100%);
 }
 
 .alert-dropdown div {padding: 0 .5rem .5rem;}
